@@ -1,3 +1,4 @@
+![Calculator](calc.jpg)
 # About Tip Calculator
 This page simulates the calculation of a tip associated with the cost of a meal.
 
@@ -26,6 +27,5 @@ form.addEventListener("submit", event => {
 
 # Learn More
 [GitHub page](https://github.com)
-[My profile](https://github.com)
 
-![Calculator](calc.jpg)
+[My profile](https://github.com)
