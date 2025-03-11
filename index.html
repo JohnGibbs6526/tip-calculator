@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="lightspace.css">
+</head>
+<body>
+    <form>
+        <h1>Tip Calculator</h1>
+
+        <input type="text" name="username" placeholder="your name">
+            <label class="feedback"></label><br>
+        <input type="password" name="password" placeholder="password">
+            <label class="feedback"></label><br>
+        <input type="text" name="price" placeholder="Cost of the meal">
+            <label class="feedback"></label><br>
+
+        <p>Quality of Service</p>
+
+        <input type="radio" id="ok" name="qos" value="15" checked>
+            <label for="ok">OK (15% tip)</label><br>
+        <input type="radio" id="good" name="qos" value="18">
+            <label for="good">Good (18% tip)</label><br>
+        <input type="radio" id="veryGood" name="qos" value="20">
+            <label for="veryGood">Very Good (20% tip)</label><br>
+        <input type="radio" id="excellent" name="qos" value="22">
+            <label for="excellent">Excellent (22% tip)</label><br>
+        
+        <input type="submit">
+
+        <div id="result"></div>
+    </form>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
