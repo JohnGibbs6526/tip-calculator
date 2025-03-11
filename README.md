@@ -25,7 +25,7 @@ form.addEventListener("submit", event => {
 ```
 
 # Learn More
-[https://github.com](GitHub page)
-[https://github.com/JohnGibbs6526](My profile)
+[GitHub page](https://github.com)
+[My profile](https://github.com)
 
 ![Calculator](calc.jpg)
